@@ -1,0 +1,34 @@
+# Flutter/Dart default ignores
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.idea/
+.vscode/
+android/.gradle/
+*.iml
+
+# Firebase config
+android/app/google-services.json
+
+# Local testing files
+test_data/
+*.jpg
+*.png
+*.jpeg
+
+# Misc
+*.log
+*.lock
+*.tmp
+*.swp
+*.DS_Store
+*.bak
+
+# Optional: IDE settings
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
